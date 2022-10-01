@@ -235,9 +235,70 @@ nav .button a {
     align-items: center;
     justify-content: space-around;
 }
+/* =======================================
+            embark part end
+======================================== */
+/* =======================================
+            counter part start
+======================================== */
+#counter-part{
+    margin-top: 80px;
+}
+
+#counter-part .box{
+    display: flex;
+    justify-content: space-between;
+}
+
+#counter-part .box .item{
+    width: 24%;
+    text-align: center;
+    padding: 40px 0;
+    border-radius: 10px;
+}
+
+#counter-part .box .item h2{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+#counter-part .box .item p{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#counter-part .box .item1{
+    background: #FFF4E5 url(../images/counter-bg.png) ;
+}
+
+#counter-part .box .item2{
+    background: #E7FDE9 url(../images/counter-bg.png) ;
+}
+
+#counter-part .box .item3{
+    background: #F2F2FD url(../images/counter-bg.png) ;
+}
+
+#counter-part .box .item4{
+    background: #FDF1F5 url(../images/counter-bg.png) ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* =======================================
-            embark part end
+            counter part end
 ======================================== */
 
