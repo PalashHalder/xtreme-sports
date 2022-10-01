@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+/* =======================================
+            navbar part start
+======================================== */
+nav{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+nav .box {
+    display: flex;
+}
+
+nav .logo {
+    width: 20%;
+}
+
+nav .nav_item {
+    width: 60%;
+}
+
+nav .nav_item ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+nav .nav_item ul li{
+    margin: 0 23px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    transition: .4s;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+nav .nav_item ul li i{
+    margin-left: 6px;
+}
+
+nav .nav_item ul li:hover{
+    color: #FF9600;
+}
+
+nav .button {
+    width: 20%;
+    text-align: right;
+}
+
+nav .button a{
+    display: inline-block;
+    background: #FF9600;
+    padding: 20px 50px;
+    border-radius: 4px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+/* =======================================
+            navbar part end
+======================================== */
+
+/* =======================================
+            banner part start
+======================================== */
+.banner-part{
+    height: 500px;
+    background: url("../images/banner-img.png") no-repeat center;
+    background-size: cover;
+    padding-top: 300px;
+    padding-bottom: 170px;
+    text-align: center;
+    position: relative;
+}
+
+.banner-part h1{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    color: #FFFFFF;
+    width: 820px;
+    margin: 0 auto;
+}
+
+.banner-part a{
+    display: inline-block;
+    padding: 18px 48px;
+    background: #FF9600;
+    color: #FFFFFF;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 4px;
+    margin-right: 20px;
+    margin-top: 55px;
+    transition: .4s;
+}
+
+.banner-part a:hover{
+    color: #000000;
+    background: #FFFFFF;
+}
+
+.banner-part img{
+    position: absolute;
+    bottom: 0;
+    left:0;
+}
+/* =======================================
+            banner part end
+======================================== */
