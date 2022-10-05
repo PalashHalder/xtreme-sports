@@ -137,26 +137,26 @@ nav .button a {
 /* =======================================
             embark part start
 ======================================== */
-#embark-part{
+#embark-part {
     margin-top: 72px;
 }
 
-#embark-part .box{
+#embark-part .box {
     display: flex;
 }
 
-#embark-part .left{
+#embark-part .left {
     width: 50%;
 }
 
-#embark-part h5{
+#embark-part h5 {
     font-family: 'Yellowtail', cursive;
     font-size: 30px;
     font-weight: 400;
     color: #14B9F1;
 }
 
-#embark-part h2{
+#embark-part h2 {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 54px;
     font-weight: 700;
@@ -164,7 +164,7 @@ nav .button a {
     position: relative;
 }
 
-#embark-part .left h2:after{
+#embark-part .left h2:after {
     width: 80px;
     height: 1px;
     background: #A0A0A0;
@@ -174,7 +174,7 @@ nav .button a {
     content: "";
 }
 
-#embark-part p{
+#embark-part p {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -182,18 +182,18 @@ nav .button a {
     margin-top: 62px;
 }
 
-#embark-part ul{
+#embark-part ul {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 18px;
     font-weight: 400;
     color: #222222;
 }
 
-#embark-part ul li{
+#embark-part ul li {
     margin-top: 34px;
 }
 
-#embark-part ul li span{
+#embark-part ul li span {
     display: inline-block;
     width: 30px;
     height: 30px;
@@ -204,7 +204,7 @@ nav .button a {
     margin-right: 23px;
 }
 
-#embark-part ul li i{
+#embark-part ul li i {
     font-size: 15px;
 }
 
@@ -229,76 +229,430 @@ nav .button a {
     background: #FFFFFF;
 }
 
-#embark-part .right{
+#embark-part .right {
     width: 50%;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
+
 /* =======================================
             embark part end
 ======================================== */
 /* =======================================
             counter part start
 ======================================== */
-#counter-part{
+#counter-part {
     margin-top: 80px;
 }
 
-#counter-part .box{
+#counter-part .box {
     display: flex;
     justify-content: space-between;
 }
 
-#counter-part .box .item{
+#counter-part .box .item {
     width: 24%;
     text-align: center;
     padding: 40px 0;
     border-radius: 10px;
 }
 
-#counter-part .box .item h2{
+#counter-part .box .item h2 {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 80px;
     font-weight: 700;
 }
 
-#counter-part .box .item p{
+#counter-part .box .item p {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 18px;
     font-weight: 400;
 }
 
-#counter-part .box .item1{
-    background: #FFF4E5 url(../images/counter-bg.png) ;
+#counter-part .box .item1 {
+    background: #FFF4E5 url(../images/counter-bg.png);
 }
 
-#counter-part .box .item2{
-    background: #E7FDE9 url(../images/counter-bg.png) ;
+#counter-part .box .item2 {
+    background: #E7FDE9 url(../images/counter-bg.png);
 }
 
-#counter-part .box .item3{
-    background: #F2F2FD url(../images/counter-bg.png) ;
+#counter-part .box .item3 {
+    background: #F2F2FD url(../images/counter-bg.png);
 }
 
-#counter-part .box .item4{
-    background: #FDF1F5 url(../images/counter-bg.png) ;
+#counter-part .box .item4 {
+    background: #FDF1F5 url(../images/counter-bg.png);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* =======================================
             counter part end
 ======================================== */
 
+/* =======================================
+            extreme part start
+======================================== */
+#extreme-part {
+    margin-top: 198px;
+    background: #0C3543;
+    padding-top: 102px;
+    padding-bottom: 83px;
+}
+
+#extreme-part .title {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+#extreme-part .heading {
+    width: 30%;
+}
+
+#extreme-part .para {
+    width: 70%;
+}
+
+#extreme-part .heading h5 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 30px;
+    font-weight: 400;
+    color: #FF9600;
+}
+
+#extreme-part .heading h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    color: #FFFFFF;
+    position: relative;
+}
+
+#extreme-part .heading h2:after {
+    width: 80px;
+    height: 1px;
+    background: #FFFFFF;
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    content: "";
+}
+
+#extreme-part .para p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    width: 638px;
+    margin: 0 auto;
+    margin-top: 62px;
+}
+
+#extreme-part .box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#extreme-part .box .item {
+    width: 32%;
+    margin-top: 50px;
+}
+
+#extreme-part .box .item img {
+    width: 100%;
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#extreme-part .box .item .text {
+    background: #0F4152;
+    text-align: center;
+    padding-top: 27px;
+    padding-bottom: 32px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#extreme-part .box .item .text h3 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+#extreme-part .box .item .text p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 27px;
+}
+/* ======================================
+            extreme part end
+========================================*/
+/* ======================================
+            sports part start
+========================================*/
+#sports-part {
+    background: #0c3543 url(../images/bg-sports.png) no-repeat center;
+    padding-bottom: 83px;
+}
+
+#sports-part h2 {
+    font-family: 'Arizonia', cursive;
+    font-size: 160px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* ======================================
+            sports part end
+========================================*/
+/* ======================================
+            limit part start
+========================================*/
+#limit-part {
+    background: #FF9600;
+    height: 500px;
+    position: relative;
+    padding-top: 106px;
+}
+
+#limit-part .img-shape {
+    width: 100%;
+    position: absolute;
+    top: -45px;
+    left: 0;
+}
+
+#limit-part .img{
+    text-align: center;
+}
+
+#limit-part .details{
+    text-align: center;
+}
+
+#limit-part .details h2{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+#limit-part .details p{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 46px;
+}
+
+#limit-part .details a {
+    display: inline-block;
+    padding: 18px 48px;
+    background: #0C3543;
+    color: #FFFFFF;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 4px;
+    margin-right: 20px;
+    margin-top: 55px;
+    transition: .4s;
+}
+
+#limit-part .details a i{
+    padding-right: 13px;
+}
+
+#limit-part .details a:hover {
+    color: #0C3543;
+    background: #FFFFFF;
+}
+
+#limit-part .details .play{
+   background: transparent;
+    border: 1px solid #FFFFFF;
+    transition: .4s;
+}
+/* ======================================
+            limit part end
+========================================*/
+/* ======================================
+            Choose part satart
+========================================*/
+#choose-part{
+    margin-top: 122px;
+}
+
+#choose-part .title{
+    text-align: center;
+}
+#choose-part .title h5 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 30px;
+    font-weight: 400;
+    color: #14B9F1;
+}
+
+#choose-part .title h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    color: #222222;
+    position: relative;
+}
+
+#choose-part .box{
+    display: flex;
+    justify-content: space-between;
+}
+#choose-part .box .item{
+    width: 24%;
+    margin-top: 76px;
+    text-align: center;
+}
+
+#choose-part .box .item h3{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 56px;
+    margin-bottom: 16px;
+}
+
+#choose-part .box .item p{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* ======================================
+            Choose part end
+========================================*/
+
+/* =======================================
+            passion part start
+======================================== */
+#passion-part {
+    margin-top: 198px;
+    background: #EEEEEE;
+    padding-top: 102px;
+    padding-bottom: 83px;
+}
+
+#passion-part .title {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+#passion-part .heading {
+    width: 30%;
+}
+
+#passion-part .para {
+    width: 70%;
+}
+
+#passion-part .heading h5 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 30px;
+    font-weight: 400;
+    color: #FF9600;
+   
+}
+
+#passion-part .heading h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    color: #222222;
+    position: relative;
+    
+}
+
+#passion-part .heading h2:after {
+    width: 80px;
+    height: 1px;
+    background: #C4C4C4;
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    content: "";
+}
+
+#passion-part .para p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #222222;
+    width: 638px;
+    margin: 0 auto;
+    margin-top: 62px;
+}
+
+#passion-part .box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#passion-part .box .item {
+    width: 32%;
+    margin-top: 50px;
+}
+
+#passion-part .box .item img {
+    width: 100%;
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#passion-part .box .item .text {
+    background: #FFFFFF;
+    text-align: center;
+    padding-top: 27px;
+    padding-bottom: 32px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#passion-part .box .item .text h3 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #222222;
+    width: 380px;
+    margin: 0 auto;
+}
+
+#passion-part .box .item .text p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #222222;
+    width: 365px;
+    margin: 0 auto;
+    margin-top: 27px;
+}
+
+#passion-part .box .item .button{
+    margin-top: 45px;
+    border-top: 1px solid #EEEEEE;
+    padding-top: 30px;
+}
+
+#passion-part .box .item .button a{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FF9600;
+}
+/* ======================================
+            passion part end
+========================================*/
