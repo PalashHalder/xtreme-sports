@@ -389,6 +389,9 @@ nav .button a {
     color: #FFFFFF;
     margin-top: 27px;
 }
+
+
+
 /* ======================================
             extreme part end
 ========================================*/
@@ -416,7 +419,6 @@ nav .button a {
 ========================================*/
 #limit-part {
     background: #FF9600;
-    height: 500px;
     position: relative;
     padding-top: 106px;
 }
@@ -428,22 +430,22 @@ nav .button a {
     left: 0;
 }
 
-#limit-part .img{
+#limit-part .img {
     text-align: center;
 }
 
-#limit-part .details{
+#limit-part .details {
     text-align: center;
 }
 
-#limit-part .details h2{
+#limit-part .details h2 {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 54px;
     font-weight: 700;
     color: #FFFFFF;
 }
 
-#limit-part .details p{
+#limit-part .details p {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 30px;
     font-weight: 700;
@@ -465,7 +467,7 @@ nav .button a {
     transition: .4s;
 }
 
-#limit-part .details a i{
+#limit-part .details a i {
     padding-right: 13px;
 }
 
@@ -474,24 +476,78 @@ nav .button a {
     background: #FFFFFF;
 }
 
-#limit-part .details .play{
-   background: transparent;
+#limit-part .details .play {
+    background: transparent;
     border: 1px solid #FFFFFF;
     transition: .4s;
 }
+
+#limit-part .details .items {
+    display: flex;
+    justify-content: space-between;
+}
+
+#limit-part .details .box {
+    background: url(../images/limit-img-one.png) no-repeat;
+    width: 424px;
+    margin-top: 101px;
+    border-radius: 10px;
+    padding-bottom: -100px;
+}
+
+#limit-part .details .box h3 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 234px;
+    color: #FFFFFF;
+    text-align: left;
+    margin-left: 65px;
+}
+
+#limit-part .details .box h5 {
+    width: 280px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 20px;
+    color: #FFFFFF;
+    text-align: left;
+    margin-left: 65px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+#limit-part .details .box p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 18px;
+    color: #FFFFFF;
+    text-align: left;
+    margin-left: 65px;
+    padding-bottom: 40px
+}
+
+#limit-part .details .box p i {
+    margin-left: 10px;
+}
+
 /* ======================================
             limit part end
 ========================================*/
 /* ======================================
             Choose part satart
 ========================================*/
-#choose-part{
+#choose-part {
     margin-top: 122px;
+    padding-top: 192px;
 }
 
-#choose-part .title{
+#choose-part .title {
     text-align: center;
 }
+
 #choose-part .title h5 {
     font-family: 'Yellowtail', cursive;
     font-size: 30px;
@@ -507,17 +563,18 @@ nav .button a {
     position: relative;
 }
 
-#choose-part .box{
+#choose-part .box {
     display: flex;
     justify-content: space-between;
 }
-#choose-part .box .item{
+
+#choose-part .box .item {
     width: 24%;
     margin-top: 76px;
     text-align: center;
 }
 
-#choose-part .box .item h3{
+#choose-part .box .item h3 {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 24px;
     font-weight: 700;
@@ -525,7 +582,7 @@ nav .button a {
     margin-bottom: 16px;
 }
 
-#choose-part .box .item p{
+#choose-part .box .item p {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -563,7 +620,7 @@ nav .button a {
     font-size: 30px;
     font-weight: 400;
     color: #FF9600;
-   
+
 }
 
 #passion-part .heading h2 {
@@ -572,7 +629,7 @@ nav .button a {
     font-weight: 700;
     color: #222222;
     position: relative;
-    
+
 }
 
 #passion-part .heading h2:after {
@@ -641,18 +698,112 @@ nav .button a {
     margin-top: 27px;
 }
 
-#passion-part .box .item .button{
+#passion-part .box .item .button {
     margin-top: 45px;
     border-top: 1px solid #EEEEEE;
     padding-top: 30px;
 }
 
-#passion-part .box .item .button a{
+#passion-part .box .item .button a {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #FF9600;
 }
+
 /* ======================================
             passion part end
+========================================*/
+/* ======================================
+            sponsor part start
+========================================*/
+
+#sponsor-part .item {
+    display: flex;
+    justify-items: space-between;
+}
+
+#sponsor-part .item img {
+    padding: 58px;
+}
+
+/* ======================================
+            sponsor part end
+========================================*/
+/* ======================================
+            footer part start
+========================================*/
+#footer-part {
+    margin-top: 72px;
+}
+
+#footer-part .box {
+    display: flex;
+}
+
+#footer-part .right .bottom-items{
+    display: flex;
+}
+
+#footer-part .left {
+    width: 30%;
+}
+#footer-part .left img {
+    width: 100%
+}
+
+#footer-part .right h2:after {
+    width: 80px;
+    height: 1px;
+    background: #A0A0A0;
+    position: absolute;
+    bottom: -31px;
+    left: 0;
+    content: "";
+}
+
+#footer-part .right p {
+    width: 560px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #222222;
+    margin-top: 62px;
+    color: #FFFFFF;
+}
+
+#footer-part .bottom-items{
+    border-bottom: 1px solid #FFFFFF;
+}
+
+#footer-part a {
+    margin-top: 20px;
+    padding: 10px 30px 10px 30px;
+    background: #FF9600;
+    color: #FFFFFF;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 4px;
+    margin-right: 20px;
+    margin-top: 55px;
+    border: 1px solid #FF9600;
+    transition: .4s;
+}
+
+#footer-part a:hover {
+    color: #FF9600;
+    background: #FFFFFF;
+}
+
+#footer-part .right {
+    padding-top: 80px;
+    padding-left: 137px;
+    background: #0C3543;
+    width: 70%;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+/* ======================================
+            footer part end
 ========================================*/
